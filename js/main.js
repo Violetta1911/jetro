@@ -6,8 +6,16 @@ $(function () {
     prevArrow: '<button type="button" class="slick-btn slick-prev">Prev</button>',
     nextArrow: '<button type="button" class="slick-btn slick-next">Next</button>',
     speed: 500,
-
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          arrows: false
+        }
+      }
+    ]
   });
+
   $('.thumbs').slick({
     arrows: true,
     slidesToShow: 6,
@@ -17,22 +25,25 @@ $(function () {
     infinite: true,
     responsive: [
       {
-        breakpoint: 650,
+        breakpoint: 1020,
         settings: {
-        slidesToShow: 4,
-        infinite: true,
-        arrows: true,
-
+          arrows: false,
+          slidesToShow: 5,
         }
       },
       {
-        breakpoint: 480,
-        settings: {          
-          slidesToShow: 2
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4,
         }
-      }
+      },
+      {
+        breakpoint: 490,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+
     ]
-
   });
-
 });
