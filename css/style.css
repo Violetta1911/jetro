@@ -161,6 +161,7 @@ body {
   width: 960px;
   max-height: 120px;
   margin: 0 0 42px 0;
+  overflow: hidden;
 }
 
 .thumbs__items {
@@ -273,11 +274,10 @@ body {
 /* works */
 
 .works {
-  margin: 0 0 100px 0;
   text-transform: uppercase;
   font-size: 18px;
   font-family: "Bebas Neue", sans-serif;
-  min-height: 245px;
+  
 }
 
 .works__title {
@@ -295,12 +295,13 @@ body {
 .works__items {
   display: flex;
   justify-content: space-between;
+  margin: 0 0 25px 0;
 }
 
 .works__item {
   max-width: 220px;
-  max-height: 185px;
-}
+ }
+
 .works__item img {
   display: block;
 }
@@ -341,18 +342,16 @@ body {
 }
 
 .footer__items {
-  width: 940px;
-  height: 265px;
-  display: flex;
+   display: flex;
   justify-content: space-between;
-  padding: 35px 40px;
+  padding: 35px 0px 10px 40px;
   background-color: rgb(232, 102, 60);
   color: #ffffff;
   overflow: hidden;
 }
 
 .footer__item {
-  width: 300px;
+  max-width: 300px;
   padding: 0 45px 0 0;
 }
 
