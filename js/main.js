@@ -11,7 +11,7 @@ $(function () {
         breakpoint: 600,
         settings: {
           arrows: false
-        }
+        } 
       }
     ]
   });

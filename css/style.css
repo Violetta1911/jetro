@@ -177,14 +177,14 @@ body {
   width: 40px;
   height: 55px;
   right: 20px;
-  background-image: url(/image/next.png);
+  background-image: url(../image/next.png);
   background-repeat: no-repeat;
   z-index: 10;
 }
 
 .preview .slick-arrow.slick-next {
   right: 20px;
-  background-image: url(/image/next.png);
+  background-image: url(../image/next.png);
 }
 
 .slick-next::before,
@@ -196,7 +196,7 @@ body {
 
 .preview .slick-arrow.slick-prev {
   left: 20px;
-  background-image: url(/image/previous.png);
+  background-image: url(../image/previous.png);
 }
 
 /* news */
@@ -238,15 +238,15 @@ body {
 }
 
 .news__title--icon::before {
-  background-image: url(/image/icon.png);
+  background-image: url(../image/icon.png);
 }
 
 .news__title--check::before {
-  background-image: url(/image/check_mark.png);
+  background-image: url(../image/check_mark.png);
 }
 
 .news__title--men::before {
-  background-image: url(/image/man.png);
+  background-image: url(../image/man.png);
 }
 
 .news__item p {
@@ -283,7 +283,7 @@ body {
 .works__title {
   color: rgb(232, 102, 60);
   margin: 0 0 25px 0;
-  background-image: url(/image/line.jpg);
+  background-image: url(../image/line.jpg);
   max-height: 20px;
 }
 
